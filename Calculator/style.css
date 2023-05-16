@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    max-height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    background-color: rgb(51, 51, 51);
+}
+
+#calculator #display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 40px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #ccc;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(51, 224, 224);
+    color: white;
+}
+.operator {
+    background-color: rgb(255, 153, 0);
+    color: #fff;
+}
+
+#restore {
+    background-color: rgb(51, 204, 0);
+    color: #fff;
+}
+#restore:hover {
+    background-color: rgb(51, 224, 224);
+}
+#delete {
+    background-color: black;
+}
+#delete:hover {
+    background-color: rgb(51, 224, 224);
+}
+#equal {
+    background-color: rgb(58, 144, 255);
+    color: #fff;
+}
+#equal:hover {
+    background-color: rgb(51, 224, 224);
+}
+img {
+    width: 50px;
+    height: 50px;
+}
