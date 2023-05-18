@@ -1,4 +1,4 @@
-const { createApp } = Vue // Here define createApp that will be function
+const { createApp } = Vue // Here define createApp
 
 createApp({
   data() { // Variables
